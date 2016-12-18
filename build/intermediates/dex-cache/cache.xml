@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_f9225d34c9bd010eba1530fa0fdec6f64b0ad545.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_a6b12f520ca765fd076385e972f5f89c4bdf9f15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5efce26db3b5b6f2e457dfaa0b923ef94e918995">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/instant-run_f817ebbea524a5b108e78be04c62ddcf7c98aaa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_82257ab9ac8eeade4b301cfa15e589304bcf6f35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b08f2dc97df2c1ddefe6e7a5f7bb1ee3ec3f7d0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_794215e41873caaf7f11e68728029a5e4372942d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_d476dc3d21d749592ed115dae0ee608d780a9e95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d4374b9e524a166ab628f5a02ef758fbeea51800">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_7b236ccfd8c3fd83559ab789f7adb6f86b76dfe2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_0497d44555f383b58d2605439d30c2d1d7f54c20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_561c4c3dad548aa5e92589b4265217b91928349e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_69835f0ee7baf0ab8c9a3857192ffbeadd5f9384.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_927c6fba0b1d929fbd7f36e04e1534aee5b263e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_46f26494eb1e027b3cc83d03e3da4b4a7e563de1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_478e306ad9fd0641a62a3700981231bab2369d2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1023d00839ee1128ecccc6c2c38138697161949c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_97a4d6bc1b8edebff3b8ea7aca75321c981deef5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ba634c63f90439ca13c05fff676868a2d52d6e6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_cc6c401b2850a765e48bb5e1444f311f91264fa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2b9f6a3adf2c2e75f57e82061af2e7dda5a526d1.jar" />
+    </item>
+
+</items>
