@@ -1,4 +1,29 @@
 <resources>
     <string name="app_name">AWS-quiz-app</string>
     <string name="action_settings">Settings</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis consequat diam. Ut sodales massa ipsum, sed fringilla purus laoreet eu.
+        Praesent vestibulum a orci vel auctor. Donec ut ipsum quam. Suspendisse ac ante eleifend, gravida urna a, hendrerit enim. Donec vel interdum nibh. Donec ac elit tristique,
+        efficitur augue non, malesuada mauris. Nunc volutpat lacinia magna et auctor. Quisque nec varius ante.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean et egestas dolor.
+        Aliquam consequat laoreet arcu. Duis et finibus eros, et posuere odio.</string>
+    <string-array name="awsServices">
+        <item>Compute</item>
+        <item>Storage</item>
+        <item>Database</item>
+        <item>Migration</item>
+        <item>Networking &amp; Content Delivery</item>
+        <item>Developer Tools</item>
+        <item>Management Tools</item>
+        <item>Security, Identity &amp; Compliance</item>
+        <item>Analytics</item>
+        <item>Artificial Intelligence</item>
+        <item>Mobile Services</item>
+        <item>Application Services</item>
+        <item>Messaging</item>
+        <item>Business Productivity</item>
+        <item>Desktop &amp; App Streaming</item>
+        <item>Software</item>
+        <item>Internet of Things</item>
+        <item>Game Development</item>
+    </string-array>
 </resources>
