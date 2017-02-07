@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="5efce26db3b5b6f2e457dfaa0b923ef94e918995">
+        sha1="06ff2c1fd1d7a7ade309702ab21b8c66205c6ad2">
         <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/instant-run_f817ebbea524a5b108e78be04c62ddcf7c98aaa7.jar" />
     </item>
     <item
@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d4374b9e524a166ab628f5a02ef758fbeea51800">
+        sha1="8eafd26ff07ff9e315304bdf424a0359fcf10fc9">
         <dex dex="/home/spmega/working/dev/projects/AWS-quiz-app/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_7b236ccfd8c3fd83559ab789f7adb6f86b76dfe2.jar" />
     </item>
     <item

@@ -1,5 +1,7 @@
 package com.vpath.spachava.aws_quiz_app;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -19,7 +22,7 @@ public class AWSQuizActivity extends AppCompatActivity {
     /**
      * The number of pages (wizard steps) to show in this demo.
      */
-    private static final int NUM_PAGES = 10;
+    private static final int NUM_PAGES = 11;
 
     /**
      * The pager widget, which handles animation and allows swiping horizontally to access previous
@@ -75,14 +78,24 @@ public class AWSQuizActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (mPager.getCurrentItem() == 0) {
-            // If the user is currently looking at the first step, allow the system to handle the
-            // Back button. This calls finish() on this activity and pops the back stack.
-            super.onBackPressed();
-        } else {
-            // Otherwise, select the previous step.
-            mPager.setCurrentItem(mPager.getCurrentItem() - 1);
-        }
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+
+        alertDialogBuilder.setTitle("Warning");
+
+        alertDialogBuilder
+                .setMessage("You are in the middle of a quiz. \nQuit the quiz now?")
+                .setCancelable(true)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                })
+                .setNegativeButton("No", null);
+
+        final AlertDialog alertDialog = alertDialogBuilder.create();
+
+        alertDialog.show();
     }
 
     @Override
@@ -114,7 +127,19 @@ public class AWSQuizActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return new ScreenSlidePageFragment();
+            Bundle bundle = new Bundle();
+
+            if(position != 10)
+                bundle.putInt("layout", R.layout.question_layout_aws);
+            else {
+                bundle.putInt("layout", R.layout.finish_quiz_layout);
+            }
+
+            ScreenSlidePageFragment screenSlidePageFragment = new ScreenSlidePageFragment();
+
+            screenSlidePageFragment.setArguments(bundle);
+
+            return screenSlidePageFragment;
         }
 
         @Override

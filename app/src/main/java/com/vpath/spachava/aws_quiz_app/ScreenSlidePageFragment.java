@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 public class ScreenSlidePageFragment extends Fragment {
 
@@ -15,7 +16,17 @@ public class ScreenSlidePageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         ViewGroup rootView = (ViewGroup) inflater.inflate(
-                R.layout.question_layout_aws, container, false);
+                this.getArguments().getInt("layout"), container, false);
+
+        if(this.getArguments().getInt("layout") == R.layout.finish_quiz_layout){
+            Button finishQuizButton = (Button) rootView.findViewById(R.id.finishQuiz);
+            finishQuizButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    getActivity().finish();
+                }
+            });
+        }
 
         return rootView;
     }
